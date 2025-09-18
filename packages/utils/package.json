@@ -1,0 +1,19 @@
+{
+  "name": "@gym-soundwaves/utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/lodash": "^4.14.0"
+  }
+}

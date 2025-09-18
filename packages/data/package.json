@@ -1,0 +1,21 @@
+{
+  "name": "@gym-soundwaves/data",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "@tanstack/react-query": "^5.0.0",
+    "zod": "^3.22.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0"
+  }
+}
